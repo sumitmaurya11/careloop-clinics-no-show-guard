@@ -1,0 +1,11 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status,raw_response
+N001,A0872,,,,,invalid,
+N002,A0897,,,,,invalid,
+N003,A0526,,,,,invalid,
+N004,A0926,other,0.0,No note recorded,Re-call patient,skipped_blank,
+N005,A0534,illness_or_emergency,0.95,"Patient missed the appointment due to acute illness, specifically a high fever and body aches.",Contact the patient for rescheduling once they have fully recovered.,valid,"{""root_cause"": ""illness_or_emergency"", ""confidence"": 0.95, ""summary"": ""Patient missed the appointment due to acute illness, specifically a high fever and body aches."", ""recommended_action"": ""Contact the patient for rescheduling once they have fully recovered.""}"
+N006,A0507,work_or_schedule,1.0,Patient missed the appointment due to an urgent workplace meeting and requested an evening slot.,Reschedule the appointment for an evening slot.,valid,"{""root_cause"": ""work_or_schedule"", ""confidence"": 1.0, ""summary"": ""Patient missed the appointment due to an urgent workplace meeting and requested an evening slot."", ""recommended_action"": ""Reschedule the appointment for an evening slot.""}"
+N007,A0333,forgot_or_no_reminder,0.95,Patient forgot the appointment because they did not receive a reminder SMS and requested a rebooking.,Reschedule the appointment and verify the patient's mobile number for future SMS reminders.,valid,"{""root_cause"": ""forgot_or_no_reminder"", ""confidence"": 0.95, ""summary"": ""Patient forgot the appointment because they did not receive a reminder SMS and requested a rebooking."", ""recommended_action"": ""Reschedule the appointment and verify the patient's mobile number for future SMS reminders.""}"
+N008,A0222,,,,,invalid,
+N009,A0977,other,0.8,Patient unreachable as phone was switched off after three calling attempts.,Send a written communication to the patient regarding the missed appointment.,valid,"{""root_cause"": ""other"", ""confidence"": 0.8, ""summary"": ""Patient unreachable as phone was switched off after three calling attempts."", ""recommended_action"": ""Send a written communication to the patient regarding the missed appointment.""}"
+N010,A0596,,,,,invalid,
